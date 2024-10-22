@@ -1,0 +1,27 @@
+.main{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;  
+    cursor: pointer;
+    width: 100%;
+    
+};
+/*.main {display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 400px;  
+    width: 400px;          
+    background-color: aliceblue;
+    border-radius: 16px;       
+    padding: 20px;           
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}*/
+.main:hover{
+    background-color:#002e72fc;
+  };
+
+.middle{justify-content: center !important; 
+    align-items: center !important;  }
+
+    

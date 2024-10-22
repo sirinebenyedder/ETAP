@@ -1,11 +1,12 @@
 import { Inter } from 'next/font/google'
-import './globals.css'
+import './ui/globals.css'
+//import './ui/dashboard/calendar/calender.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Lama Dev Next.js Admin Dashboard',
-  description: 'Next.js Tutorial',
+  title: 'Gestion des chèques',
+  description: 'etap',
 }
 
 export default function RootLayout({ children }) {

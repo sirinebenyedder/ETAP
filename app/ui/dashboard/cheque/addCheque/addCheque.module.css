@@ -1,0 +1,78 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form input,
+  .form textarea,
+  .form select {
+    padding: 30px;
+    background-color: var(--bg);
+    color: var(--text);
+    border: 2px solid #2e374a;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-sizing: border-box !important; 
+    height: 80px;
+
+  }
+  
+  .form input, .form select {
+    width: 45%;
+  }
+  
+  .form textarea{
+    width: 100% !important;
+  }
+  
+  .form button{
+    width: 100%;
+    padding: 30px;
+    background-color: teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /**/
+  .inputGroup {
+    width: 45%; /* Match the width of other form inputs */
+    margin-bottom: 30px; /* Same margin as other form elements */
+    
+}
+  
+  /* Label above the input */
+  .dateWrapper {
+    position: relative;
+    width: 100%; /* Full width of the inputGroup */
+    
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px; /* Space between label and input */
+    font-size: 16px; /* Match font size with other labels if needed */
+    color: var(--text); /* Ensure the label color matches the theme */
+  }
+  
+  /* Date input style */
+  .dateInput {
+    width: 100% !important; /* Take up the full width of its container */
+    padding: 30px;
+    background-color: var(--bg);
+    color: var(--text);
+    border: 2px solid #2e374a;
+    border-radius: 5px;
+    box-sizing:border-box;
+   }
+   .txtInput{
+    margin-top: 30px !important;
+   }

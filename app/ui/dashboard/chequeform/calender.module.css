@@ -1,0 +1,70 @@
+.calendarWrap {
+  position: relative !important;
+}
+
+.inputBox {
+  width: 100% !important;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.calendarElement {
+  position: absolute !important;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background: white !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Override react-date-range styles */
+.calendarElement .rdrCalendarWrapper {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.calendarElement .rdrMonth {
+  flex: 1 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendarElement .rdrDays {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.calendarElement .rdrDay {
+  flex: 1 !important;
+  text-align: center !important;
+  padding: 10px !important;
+  border: 1px solid #ccc !important;
+  cursor: pointer !important;
+}
+
+.calendarElement .rdrDayNumber {
+  display: block !important;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  background-color: transparent;
+  color: #000;
+}
+
+.calendarElement .rdrDay:hover .rdrDayNumber {
+  background-color: #f0f0f0;
+}
+
+.calendarElement .rdrDayNumber span {
+  width: 100%;
+  display: inline-block;
+}
+.rdrDays{
+  display:grid !important;
+  color: black !important;
+}
+.rdrMonth{
+  display:grid !important;
+  color: black !important;
+}
